@@ -77,6 +77,12 @@ body{
     list-style: none;
 }
 
+.menu-list-l li a{
+    text-decoration: none;
+    color: rgb(133, 135, 139);
+}
+
+
 .text-menu-style{
     color: rgb(133, 135, 139);
     font-size: .9rem;
@@ -130,6 +136,8 @@ body{
     aspect-ratio: 1/1;
     border-radius: 50%;
 }
+
+
 
 
 
