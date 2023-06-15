@@ -10,6 +10,9 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     </head>
 
     <body>
@@ -24,22 +27,22 @@
                     <div class="logo">
                         <img src="./img/logo.svg" alt="">
                     </div>
-                    <div class="side-nav-icon">
+                    <div class="side-nav-icon text-menu-style">
                         <i class="fa-solid fa-house"></i>
                         <span class="hidden-m">Home</span>
                     </div>
-                    <div class="side-nav-icon">
+                    <div class="side-nav-icon text-menu-style">
                         <i class="fa-solid fa-magnifying-glass"></i>
                         <span class="hidden-m">Cerca</span>
                     </div>
-                    <div class="side-nav-icon">
+                    <div class="side-nav-icon text-menu-style">
                         <i class="fa-solid fa-book"></i>
                         <span class="hidden-m">La tua Libreria</span>
                     </div>                   
                 </div>
 
                         <!-- second-menu nav part -->
-                <div class="left-playlist-nav hidden-m">
+                <div class="left-playlist-nav hidden-m text-menu-style">
                     <h4>PLAYLIST</h4>
 
                     <div class="new-playlist">
@@ -61,13 +64,13 @@
 
                     <!-- third menu-user nav -->
 
-                <div class="left-user-nav">
+                <div class="left-user-nav ">
                     <div class="border-l border-xs">
-                        <i class="fa-solid fa-circle-down"></i>
-                        <span class="hidden-m"> Installa app</span>
+                        <i class="fa-solid fa-circle-down text-menu-style"></i>
+                        <span class="hidden-m text-menu-style"> Installa app</span>
                     </div>                    
                     <div>
-                        <i class="fa-solid fa-circle-user"></i>
+                        <i class="fa-solid fa-circle-user text-menu-style "></i>
                         <span class="hidden-m">John Doe</span>
                     </div>
                 </div>
@@ -80,18 +83,18 @@
             <div class="main-content border">
                 <div class="upgrade-bar border"></div>
 
-                <!-- menu-selection-artist -->
+                <!-- menu-selection-music -->
 
                 <div class="music-container border">
                     <div class="selection-container border container-max-width">
                         <div>
-                            <ul class="menu-list-l">
-                                <li class="list-m">aaasdasdaa</li>
-                                <li class="list-m">aaasdasdaa</li>
-                                <li class="list-m">aaasdasdaa</li>
-                                <li class="list-m">aaasdasdaa</li>
-                                <li class="list-m">aaasdasdaa</li>
-                                <li class="list-m">aaasdasdaa</li>
+                            <ul class="menu-list-l text-menu-style">
+                                <li class="list-m">IN EVIDENZA</li>
+                                <li class="list-m">PODCAST</li>
+                                <li class="list-m">CLASSIFICHE</li>
+                                <li class="list-m">GENERI E MOOD</li>
+                                <li class="list-m">NUOVE USCITE</li>
+                                <li class="list-m">SCOPRI</li>
                                 
                             </ul>
                         </div>                  
@@ -99,63 +102,140 @@
 
                     <!-- recently played -->
 
-                    <div class="recent-played border container-max-width">
+                    <div class="container-l border container-max-width">
                         <h2>Recently Played</h2>
                         <div class="row-l">
-                            <div class="col-l col-m col-s">
-                                <div class="card-l"></div>
+
+                            <div class="col-l col-m col-s col-padding-top-bot">                               
+                                <div class="card-l">
+                                    <div class="img-container">
+                                        <img class="card-img" src="./img/metal_lifting.jpg" alt="">
+                                    </div>
+                                    <div class="info-card">
+                                        <h4 class="song-title">Heavy Metal</h4>
+                                        <span class="author-title text-menu-style alt-menu-style">Subtitle</span>
+                                    </div>
+                                </div>
                             </div>
 
-                            <div class="col-l col-m col-s">
-                                <div class="card-l"></div>
+                            <div class="col-l col-m col-s col-padding-top-bot">
+                                <div class="card-l">
+                                    <div class="img-container">
+                                        <img class="card-img" src="./img/stranger.jpeg" alt="">
+                                    </div>
+                                    <div class="info-card">
+                                        <h4 class="song-title">Strange Things, Vol. 1 (a Netflix Original Series Soundtrack)</h4>
+                                        <span class="author-title text-menu-style alt-menu-style">Kyle Dixon & MIchael Stein</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-l col-m col-s col-padding-top-bot">
+                                <div class="card-l">
+                                    <div class="img-container">
+                                        <img class="card-img" src="./img/aquietplace.jpeg" alt="">
+                                    </div>
+                                    <div class="info-card">
+                                        <h4 class="song-title">A quiet place</h4>
+                                        <span class="author-title text-menu-style alt-menu-style">Subtitle</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-l col-m col-s col-padding-top-bot">
+                                <div class="card-l">
+                                    <div class="img-container">
+                                        <img class="card-img" src="./img/split.jpeg" alt="">
+                                    </div>
+                                    <div class="info-card">
+                                        <h4 class="song-title">Split</h4>
+                                        <span class="author-title text-menu-style alt-menu-style ">Subtitle</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-l col-m col-s col-padding-top-bot">
+                                <div class="card-l">
+                                    <div class="img-container">
+                                        <img class="card-img" src="./img/cure.jpeg" alt="">
+                                    </div>
+                                    <div class="info-card">
+                                        <h4 class="song-title">A cure for wellness</h4>
+                                        <span class="author-title text-menu-style alt-menu-style">Subtitle</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-l col-m col-s col-padding-top-bot">
+                                <div class="card-l">
+                                    <div class="img-container">
+                                        <img class="card-img" src="./img/sinister.jpeg" alt="">
+                                    </div>
+                                    <div class="info-card">
+                                        <h4 class="song-title">Sinister</h4>
+                                        <span class="author-title text-menu-style alt-menu-style">Subtitle</span>
+                                    </div>
+                                </div>
                             </div>
 
-                            <div class="col-l col-m col-s">
-                                <div class="card-l"></div>
-                            </div>
-
-                            <div class="col-l col-m col-s">
-                                <div class="card-l"></div>
-                            </div>
-
-                            <div class="col-l col-m col-s">
-                                <div class="card-l"></div>
-                            </div>
-
-                            <div class="col-l col-m col-s">
-                                <div class="card-l"></div>
-                            </div>
+                            
                         </div>
                     </div>
 
                     <!-- created for -->
                 
-                    <div class="for-you-music border container-max-width">
+                    <div class="container-l border container-max-width">
                         <h2>Creato per John Doe</h2>
-                        <p>bla bla bla bla bla bla bla</p>
+                        <p class="text-menu-style alt-menu-style" >Più ascolti, più accurati saranno i suggerimenti</p>
 
                         <div class="row-l">
-                            <div class="col-l col-m col-s">
-                                <div class="card-l"></div>
+                            <div class="col-l col-m col-s col-padding-top-bot">
+                                <div class="card-l">
+                                    <div class="img-container">
+                                        <img class="card-img" src="./img/radar.jpeg" alt="">
+                                    </div>
+                                    <div class="info-card">
+                                        <h4 class="song-title">Release Radar</h4>                                       
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-l col-m col-s">
-                                <div class="card-l"></div>
+                            <div class="col-l col-m col-s col-padding-top-bot">
+                                <div class="card-l">
+                                    <div class="img-container">
+                                        <img class="card-img" src="./img/mixdaily.jpeg" alt="">
+                                    </div>
+                                    <div class="info-card">
+                                        <h4 class="song-title">Daily Mix 1</h4>                                        
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                     <!-- Popular artist -->
 
-                    <div class="best-popular border container-max-width">
+                    <div class="bcontainer-l border container-max-width">
                         <h2>Artisti più popolari</h2>
-                        <p>bla bla bla bla bla bla bla</p>
+                        <p class="text-menu-style alt-menu-style">Più ascolti, più accurati saranno i suggerimenti</p>
 
                         <div class="row-l">
-                            <div class="col-l col-m col-s">
-                                <div class="card-l "></div>
+                            <div class="col-l col-m col-s col-padding-top-bot">
+                                <div class="card-l ">
+                                    <div class="img-container">
+                                        <img class="card-img circle-img" src="./img/youg.jpeg" alt="">
+                                    </div>
+                                    <div class="info-card">
+                                        <h4 class="song-title">Lana Del Rey</h4>                                    
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-l col-m col-s">
-                                <div class="card-l"></div>
+                            <div class="col-l col-m col-s col-padding-top-bot">
+                                <div class="card-l">
+                                    <div class="card-l ">
+                                        <div class="img-container">
+                                            <img class="card-img circle-img" src="./img/einaudi.jpeg" alt="">
+                                        </div>
+                                        <div class="info-card">
+                                            <h4 class="song-title">Ludovico Einaudi</h4>                                    
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
