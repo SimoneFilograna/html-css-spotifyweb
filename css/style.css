@@ -36,6 +36,8 @@ body{
 .main-content{
     flex-grow: 1;
     overflow: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .side-nav{
@@ -44,7 +46,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    background-color: rgb(8, 11, 18);
+    background-color: black;
 }
 
 
