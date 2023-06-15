@@ -49,7 +49,6 @@ body{
 
 
 .upgrade-bar{
-    height: 100px;
     flex-shrink: 0;
     background-color: rgb(8, 11, 18);
 }
@@ -158,7 +157,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: flex-end;
-
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
 }
 
 
