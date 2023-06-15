@@ -115,6 +115,9 @@ body{
 @media screen and (max-width: 600px) {
     .hidden-m{
         display: none;
+    }   
+
+    .border-xs{
+        border-color: transparent;
     }
-    
 }
