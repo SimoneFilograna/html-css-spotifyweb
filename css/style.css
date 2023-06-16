@@ -205,6 +205,11 @@ body{
     overflow: auto;
 }
 
+.left-user-nav img{
+    display: inline-block;
+    padding-top: 10px;
+} 
+
 .left-user-nav div{
     padding-top: .5rem;
     padding-bottom: 5px;
