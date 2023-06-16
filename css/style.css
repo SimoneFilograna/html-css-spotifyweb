@@ -235,12 +235,27 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-    font-size: 5rem;
+    font-size: 6rem;
     transform: translate(-50%, -50%);
+    display: none;
     }
 
+.bg-opacity{
+    width: 100%;
+    aspect-ratio: 1/1;
+    background-color: rgb(0, 0, 0, .3);
+    position: absolute;
+    top: 0;
+    display: none;
+}
 
+.img-container:hover .img-walk{
+    display: block;
+}
 
+.img-container:hover .bg-opacity{
+    display: block;
+}
 
 
 
