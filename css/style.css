@@ -227,8 +227,17 @@ body{
     font-size: .9rem;
 }
 
+.img-container{
+    position: relative;
+}
 
-
+.img-walk{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 5rem;
+    transform: translate(-50%, -50%);
+    }
 
 
 
