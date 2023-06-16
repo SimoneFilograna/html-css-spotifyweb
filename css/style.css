@@ -167,6 +167,7 @@ body{
 .logo{
     padding-top: 1rem;
     padding-bottom: 1rem;
+    width: 130px;
 }
 
 .nav-list{
@@ -204,6 +205,11 @@ body{
     padding-bottom: 5px;
 }
 
+.small-logo{
+    width: 20px;
+    display: block;
+    display: none;
+}
 
 
 
@@ -239,5 +245,9 @@ body{
 
     .left-user-nav{
         margin-top: auto;
+    }
+
+    .small-logo-m{
+        display: block;
     }
 }
