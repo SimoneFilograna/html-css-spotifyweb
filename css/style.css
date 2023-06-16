@@ -155,6 +155,11 @@ body{
     margin-right: 1rem;
 }
 
+
+.btn-size{
+    font-size: .7rem;
+}
+
 .upgrade-bar{
     display: flex;
     align-items: center;
