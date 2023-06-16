@@ -216,6 +216,12 @@ body{
     display: none;
 }
 
+.user-style{
+    color: white;
+    display: inline-block;
+    font-size: .9rem;
+}
+
 
 
 
