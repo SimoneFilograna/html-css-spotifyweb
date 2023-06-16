@@ -264,6 +264,11 @@ body{
     display: block;
 }
 
+.img-container:hover:hover{
+    cursor: pointer;
+}
+
+
 .menu-list-l li a:hover{
     color: white;
 }
