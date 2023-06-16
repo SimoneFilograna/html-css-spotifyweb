@@ -18,65 +18,80 @@
     <body>
                 <!-- container principale -->
         <div class="main-container border">
+ 
+            <!-- side menù bar  -->
 
-                <!-- side menù bar  -->
             <div class="side-nav border">
 
-                        <!-- first menu nav part -->
+                <!-- first menu nav part -->
+                
+                <div class="container-logo">
+                    <img  class="logo"src="./img/logo.svg" alt="">
+                </div>
+
                 <div class="left-main-nav">
-                    <div class="logo">
-                        <img src="./img/logo.svg" alt="">
-                    </div>
-                    <div class="side-nav-icon text-menu-style">
-                        <i class="fa-solid fa-house"></i>
-                        <span class="hidden-m">Home</span>
-                    </div>
-                    <div class="side-nav-icon text-menu-style">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                        <span class="hidden-m">Cerca</span>
-                    </div>
-                    <div class="side-nav-icon text-menu-style">
-                        <i class="fa-solid fa-book"></i>
-                        <span class="hidden-m">La tua Libreria</span>
-                    </div>                   
+                    <ul class="nav-list">
+                        <li>
+                            <div class="item-list icon text-menu-style alt-menu-style">
+                                <img src="img/home.svg" alt="" class="icon-nav">
+                                <span class="hidden-m">Home</span>
+                            </div>
+                            
+                        </li>
+                        <li>
+                            <div class="item-list icon text-menu-style alt-menu-style">
+                                <img src="img/search.svg" alt="" class="icon-nav">
+                                <span class="hidden-m">Cerca</span>
+                            </div>
+                            
+                        </li>
+                        <li>
+                            <div class="item-list icon text-menu-style alt-menu-style">
+                                <img src="img/libreria.svg" alt="" class="icon-nav">
+                                <span class="hidden-m">La tua libreria</span>
+                            </div>
+                            
+                        </li>
+                        
+
+                    </ul>                 
                 </div>
 
                         <!-- second-menu nav part -->
-                <div class="left-playlist-nav hidden-m text-menu-style">
-                    <h4>PLAYLIST</h4>
+                <div class="left-playlist-nav hidden-m text-menu-style alt-menu-style">
+                    <h4 style="color: white;">PLAYLIST</h4>
 
                     <div class="new-playlist">
-                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-plus style-plus"></i>
                         <span>Crea Playlist</span>
                     </div>
 
-                    <div class="playlist-name">Nome Playlist</div>
-                    <div class="playlist-name">Nome Playlist</div>
-                    <div class="playlist-name">Nome Playlist</div>
-                    <div class="playlist-name">Nome Playlist</div>
-                    <div class="playlist-name">Nome Playlist</div>
-                    <div class="playlist-name">Nome Playlist</div>
-                    <div class="playlist-name">Nome Playlist</div>
-                    <div class="playlist-name">Nome Playlist</div>
-                    <div class="playlist-name">Nome Playlist</div>
-                    <div class="playlist-name">Nome Playlist</div>
+                    <div class="nav-list list-overflow">
+                        <li>Nome PLaylist</li>
+                        <li>Nome PLaylist</li>
+                        <li>Nome PLaylist</li>
+                        <li>Nome PLaylist</li>
+                        <li>Nome PLaylist</li>
+                        <li>Nome PLaylist</li>
+                        <li>Nome PLaylist</li>    
+                        <li>Nome PLaylist</li>                                                                                                              
+                    </div>
                 </div>
 
                     <!-- third menu-user nav -->
 
                 <div class="left-user-nav ">
                     <div class="border-l border-xs">
-                        <i class="fa-solid fa-circle-down text-menu-style"></i>
-                        <span class="hidden-m text-menu-style"> Installa app</span>
+                        <i class="fa-solid fa-circle-down text-menu-style alt-menu-style"></i>
+                        <span class="hidden-m text-menu-style alt-menu-style download-icon"> Installa app</span>
                     </div>                    
                     <div>
-                        <i class="fa-solid fa-circle-user text-menu-style "></i>
-                        <span class="hidden-m">John Doe</span>
+                        <i class="fa-solid fa-circle-user text-menu-style alt-menu-style"></i>
+                        <span class="hidden-m alt-menu-style" style="color: white">John Doe</span>
                     </div>
                 </div>
-
-
             </div>
+               
 
                 <!-- main-central-content -->
 
