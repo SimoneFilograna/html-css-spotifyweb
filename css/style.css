@@ -136,7 +136,7 @@ body{
 }
 
 .circle-img{
-    width: 100%px;
+    width: 100%;
     aspect-ratio: 1/1;
     border-radius: 50%;
 }
@@ -282,6 +282,27 @@ li a:hover,
 }
 
 
+.list-m{
+    position: relative;
+
+}
+
+.green-line{
+    margin-top: 2px;
+    width: 50%;
+    height: 2px;
+    background-color:  rgb(0, 255, 55);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-bottom: -6px;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.list-m:hover .green-line{
+    display: block;
+}
 
 
 @media screen and (max-width: 1100px) {
