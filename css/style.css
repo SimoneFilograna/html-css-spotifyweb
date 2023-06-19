@@ -368,6 +368,13 @@ li a:hover,
     font-size: 2rem;
 }
 
+
+.hover-play:hover{
+    transform: scale(110%);
+    transition: transform .3s linear
+}
+
+
 .bottom-mid-flex{
     display: flex;
     flex-direction: column;
@@ -388,6 +395,55 @@ li a:hover,
     background-color:  rgb(133, 135, 139);
     margin-top: 1.2rem;
 }
+
+.progress-bar-line-hover{
+    height: 100%;
+    background-color: rgb(123, 255, 0);
+    width: 30%;
+    position: relative;
+    display: none;
+}
+
+.dot-end{
+    position: absolute;
+    right: 0;
+    top: -50%;
+    height: 10px;
+    aspect-ratio: 1/1;
+    background-color: transparent;
+    border-radius: 50%;   
+}
+
+.progress-bar-line:hover .progress-bar-line-hover{
+    display: block;
+}
+
+.progress-bar-line:hover .dot-end{
+    background-color: white;
+}
+
+
+.volume-line-hover{
+    height: 4px;
+    width: 30%;
+    background-color: rgb(123, 255, 0);
+    display: none;
+    position: relative;
+}
+
+.volume-line:hover .volume-line-hover{
+    display: block;
+}
+
+.volume-line:hover .dot-end{
+    background-color: white;
+}
+
+
+
+
+
+
 
 .bottom-icon-container-right{
     color: white;
