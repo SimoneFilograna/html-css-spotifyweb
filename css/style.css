@@ -306,7 +306,6 @@ li a:hover,
 
 
 .bottom-bar-container{
-    /* height: 100px; */
     flex-shrink: 0;
     display: flex;
     width: 100%;
@@ -318,6 +317,15 @@ li a:hover,
 }
 
 
+.mid-player{
+    max-width: 50%;
+}
+
+
+
+
+
+
 .bottom-img{
     width: 50px;
     aspect-ratio: 1/1;
@@ -327,7 +335,6 @@ li a:hover,
 
 .bottom-title, .player{
     color: white;
-    line-height: 1.5rem;
 }
 
 .p-bottom-style{
@@ -350,7 +357,6 @@ li a:hover,
 .player-bar{
     display: flex;
     gap: 2.5rem;
-    flex-grow: 1;
     justify-content: center;
     align-items: center;
 }
@@ -362,13 +368,13 @@ li a:hover,
 .bottom-mid-flex{
     display: flex;
     flex-direction: column;
-    gap: .2rem;
+    gap: .1rem;
 }
 
 .progress-bar{
     display: flex;  
     align-items: baseline;
-    gap: 2rem;  
+    gap: 1rem;  
     color: white;
     font-size: .8rem;
 }
@@ -385,12 +391,19 @@ li a:hover,
 }
 
 .volume-line{
+    width: 100px;
     height: 4px;
     background-color:  rgb(133, 135, 139);
-    width: 100%;
 }
 
+.bar-nowrap{
+    flex-wrap: nowrap;
+    gap: .5rem;
+}
 
+.no-play-button{
+    font-size: .9rem
+}
 
 
 .right-player{
