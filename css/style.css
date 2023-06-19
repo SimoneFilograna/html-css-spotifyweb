@@ -314,11 +314,13 @@ li a:hover,
     padding-bottom: 2rem;
     background-color: rgb(40, 40, 40) ;
     align-items: center;
+    gap: 1rem;
 }
 
 
 .mid-player{
     max-width: 50%;
+    flex-grow: 1;
 }
 
 
@@ -329,7 +331,7 @@ li a:hover,
 .bottom-img{
     width: 50px;
     aspect-ratio: 1/1;
-    object-fit: contain;
+    /* object-fit: contain; */
 }
 
 
@@ -388,10 +390,11 @@ li a:hover,
 
 .bottom-icon-container-right{
     color: white;
+    font-size: .9rem;
 }
 
 .volume-line{
-    width: 100px;
+    width: 80px;
     height: 4px;
     background-color:  rgb(133, 135, 139);
 }
