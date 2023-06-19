@@ -444,6 +444,9 @@ li a:hover,
         transition: transform .5s linear;
     }
 
+    .player-bar-s{
+        gap: 1rem;
+    }
 }
 
 
