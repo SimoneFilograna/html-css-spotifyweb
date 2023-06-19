@@ -319,8 +319,8 @@ li a:hover,
 
 
 .mid-player{
-    max-width: 40%;
     flex-grow: 1;
+    max-width: 40%;
 }
 
 
@@ -329,6 +329,11 @@ li a:hover,
     aspect-ratio: 1/1;
     /* object-fit: contain; */
 }
+
+.left-side-player{
+    flex-basis: 25%;
+}
+
 
 
 .bottom-title, .player{
@@ -434,7 +439,11 @@ li a:hover,
         padding-bottom: .5rem;
     }
 
-    
+    .left-side-player, .right-side-player, .mid-player{
+        transform: scale(90%);
+        transition: transform .5s linear;
+    }
+
 }
 
 
