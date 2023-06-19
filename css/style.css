@@ -477,6 +477,9 @@ li a:hover,
     cursor: pointer;
 }
 
+.border-left-green{
+    border-left: 4px solid green;
+}
 
 
 @media screen and (max-width: 1100px) {
