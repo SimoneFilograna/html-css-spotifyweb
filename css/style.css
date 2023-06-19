@@ -274,6 +274,7 @@ li a,
     color:  rgb(133, 135, 139);
 }
 
+.bottom-icon-s:hover,
 li a:hover,
 .new-playlist a:hover,
 .left-user-nav a:hover{
@@ -370,7 +371,7 @@ li a:hover,
 
 
 .hover-play:hover{
-    transform: scale(110%);
+    transform: scale(120%);
     transition: transform .3s linear
 }
 
@@ -398,7 +399,7 @@ li a:hover,
 
 .progress-bar-line-hover{
     height: 100%;
-    background-color: rgb(123, 255, 0);
+    background-color: rgb(187, 255, 0);
     width: 30%;
     position: relative;
     display: none;
@@ -426,7 +427,7 @@ li a:hover,
 .volume-line-hover{
     height: 4px;
     width: 30%;
-    background-color: rgb(123, 255, 0);
+    background-color: rgb(187, 255, 0);
     display: none;
     position: relative;
 }
@@ -438,10 +439,6 @@ li a:hover,
 .volume-line:hover .dot-end{
     background-color: white;
 }
-
-
-
-
 
 
 
@@ -471,6 +468,14 @@ li a:hover,
     gap: var(--space-gap);
     align-items: center;
 }
+
+
+.left-side-player .p-bottom-style:hover{
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}
+
 
 
 @media screen and (max-width: 1100px) {
