@@ -41,6 +41,7 @@ body{
 .side-nav{
     flex-shrink: 0;
     padding: 1rem;
+    padding-right: 3rem;
     display: flex;
     flex-direction: column;
     background-color: black;
@@ -526,5 +527,10 @@ li a:hover,
 
     .small-logo-m{
         display: block;
+    }
+
+    .side-nav-xs{
+        padding-right: 1rem;
+        transition: padding .5s linear;
     }
 }
