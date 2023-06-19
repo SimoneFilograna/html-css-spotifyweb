@@ -319,13 +319,9 @@ li a:hover,
 
 
 .mid-player{
-    max-width: 50%;
+    max-width: 40%;
     flex-grow: 1;
 }
-
-
-
-
 
 
 .bottom-img{
