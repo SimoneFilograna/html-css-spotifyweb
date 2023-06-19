@@ -22,17 +22,6 @@ body{
     aspect-ratio: 1/1;
 } */
 
-.bottom-bar-container{
-    /* height: 100px; */
-    flex-shrink: 0;
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    padding: 1rem;
-    padding-bottom: 2rem;
-    background-color: rgb(40, 40, 40) ;
-    align-items: center;
-}
 
 .main-container{
     flex-grow: 1;
@@ -74,7 +63,7 @@ body{
     padding: 1rem;
     background-color: rgb(20, 25, 34);
     color: white;
-
+    
 }
 
 .container-max-width{
@@ -246,7 +235,7 @@ body{
     font-size: 6rem;
     transform: translate(-50%, -50%);
     display: none;
-    }
+}
 
 .bg-opacity{
     width: 100%;
@@ -294,8 +283,9 @@ li a:hover,
 
 .list-m{
     position: relative;
-
+    
 }
+
 
 .green-line{
     margin-top: 2px;
@@ -314,8 +304,22 @@ li a:hover,
     display: block;
 }
 
+
+.bottom-bar-container{
+    /* height: 100px; */
+    flex-shrink: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1rem;
+    padding-bottom: 2rem;
+    background-color: rgb(40, 40, 40) ;
+    align-items: center;
+}
+
+
 .bottom-img{
-    width: 60px;
+    width: 50px;
     aspect-ratio: 1/1;
     object-fit: contain;
 }
@@ -347,7 +351,6 @@ li a:hover,
     display: flex;
     gap: 2.5rem;
     flex-grow: 1;
-    width: 100%;
     justify-content: center;
     align-items: center;
 }
@@ -356,9 +359,10 @@ li a:hover,
     font-size: 2rem;
 }
 
-.mid-player{
-    flex-grow: 1;
-    max-width: 35%;
+.bottom-mid-flex{
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
 }
 
 .progress-bar{
@@ -383,7 +387,11 @@ li a:hover,
 .volume-line{
     height: 4px;
     background-color:  rgb(133, 135, 139);
+    width: 100%;
 }
+
+
+
 
 .right-player{
     display: flex;
